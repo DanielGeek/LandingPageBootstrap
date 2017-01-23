@@ -26,13 +26,15 @@
         <!-- Bootstrap -->
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         
+        <link rel="stylesheet" href="bootstrap/css/style.css">
+        
         <!-- Font awesome -->
         <link rel="stylesheet" href="bootstrap/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
         
     </head>
     <body>
         <!-- JUMBOTRON -->
-        <div class="jumbotron">
+        <div id="jumbotron-landing" class="jumbotron">
             <div class="container">
                
                <!-- FILA  1 -->
@@ -46,13 +48,13 @@
                     <!-- SOCIAL MEDIA LOGOS -->
                     <div class="col-xs-12 col-sm-2">
                         <span class="fa-stack fa-lg">
-                            <a style="color:white;" href="#" target="_blank">
+                            <a style="color:white;" href="https://www.facebook.com/Neurocomputacion/" target="_blank">
                                 <i class="fa fa-square-o fa-stack-2x"></i>
                                 <i class="fa fa-facebook-square fa-stack-1x fa-spin fa-fw" aria-hidden="true"></i>
                             </a>
                         </span>
                         <span class="fa-stack fa-lg">
-                            <a style="color:white;" href="#" target="_blank">
+                            <a style="color:white;" href="https://twitter.com/neucomputacion" target="_blank">
                                 <i class="fa fa-square-o fa-stack-2x"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-spin fa-fw"></i>
                             </a>
@@ -71,6 +73,21 @@
                 </div>
                 <!-- fin fila título de la página -->
                 
+                <!-- CALL TO ACTION -->
+                <div class="row text-center">
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
+                        <h4>Conoce el método!</h4>
+                        <form>
+                            <div class="input-group">
+                                <input id="input-cta" type="text" class="form-control" rows="4" placeholder="Introduce tu email">
+                                <span class="input-group-btn">
+                                    <button id="button-cta" class="btn btn-warning" type="button">Avisame</button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- END CALL TO ACTION -->
             </div>
         </div>
         <!-- END JUMBOTRON -->
@@ -109,7 +126,7 @@
                         <i class="fa fa-pencil fa-stack-1x fa-spin fa-fw" aria-hidden="true"></i>
                    </span>
                    <h3>ayudemos a acabar el analfabetismo en el mundo compartiendolo en internet</h3>
-                   <p>En Neurocomputación aprenderas a aprender de otra forma a la tradicional</p>
+                   <p>En Neurocomputación aprenderas a aprender de una nueva forma muy devertida</p>
                 </div>
             </div>
         </div>
@@ -120,18 +137,66 @@
         <div class="container"><hr class="hidden-xs">
             <div class="row text-center">
                 <div class="hidden-xs col-sm-6">
-                    <img src="img/ojos.png" alt="ojos" class="img-circle">
+                    <img src="img/ojos.png" alt="ojos" class="img-circle img">
                     <h3><strong>Visualización</strong><em><br><i class="fa fa-quote-left" aria-hidden="true"></i> Coge la información que desees comprender o retener y colócala en una imagen o fotografía con la que esté relacionada. Será más sencillo recordar la imagen, y seguidamente la información que al revés o sin fotografía.</em> <i class="fa fa-quote-right" aria-hidden="true"></i>
                     </h3>
                 </div>
                 <div class="hidden-xs col-sm-6">
-                    <img src="img/memorizacion.png" alt="" class="img-circle">
+                    <img src="img/memorizacion.png" alt="" class="img-circle img">
                     <h3><strong>La memorización</strong><em><br><i class="fa fa-quote-left" aria-hidden="true"></i> Repetir y repetir la información a tu cerebro hasta que consigas recordarlo, este método funciona mejor con información arbitraria y basada en hechos reales, ya que consigues imaginarte una situación y recordarla al repetirlo o verlo tantas veces.</em> <i class="fa fa-quote-right" aria-hidden="true"></i>
                     </h3>
                 </div>
             </div>
         </div>
         <!-- FIN TÉCNICAS MEMORIZACIÓN -->
+        
+        <!-- INICIO CURSOS LOGOS -->
+            <div class="container">
+               <hr class="hidden-xs hidden-sm">
+                <div class="row">
+                    <div class="hidden-xs hidden-sm col-sm-2">
+                        <a href="https://www.facebook.com/Neurocomputacion/" target="_blank">
+                            <img src="img/logo1.png" alt="neurocomputación" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="hidden-xs hidden-sm col-sm-2">
+                        <a href="https://www.udemy.com" target="_blank">
+                            <img src="img/logo2.png" alt="udemy" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="hidden-xs hidden-sm col-sm-2">
+                        <a href="https://www.udacity.com/" target="_blank">
+                            <img src="img/logo3.png" alt="udacity" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="hidden-xs hidden-sm col-sm-2">
+                        <a href="https://www.edx.org/" target="_blank">
+                            <img src="img/logo4.png" alt="edx" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="hidden-xs hidden-sm col-sm-2">
+                        <a href="https://www.google.es/landing/activate/home/" target="_blank">
+                            <img src="img/logo5.png" alt="googleactiva" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="hidden-xs hidden-sm col-sm-2">
+                        <a href="https://www.codecademy.com/es" target="_blank">
+                            <img src="img/logo6.png" alt="codeacademy" class="img-responsive">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        <!-- FIN CURSOS LOGOS -->
+        
+        <!-- INICIO PIE DE PÁGINA -->
+        <div id="footer" class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h6>Nuerocomputación &copy; 2017</h6>
+                </div>
+            </div>
+        </div>
+        <!-- FIN PIE DE PÁGINA -->
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
