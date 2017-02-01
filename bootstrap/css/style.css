@@ -1,4 +1,8 @@
-
+canvas {
+    height: 50px ;
+    width: 100% ;
+    
+}
 #jumbotron-landing {
     background-color:gray;
     background-image: url('../../img/background.png');

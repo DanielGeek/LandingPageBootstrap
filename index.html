@@ -36,10 +36,20 @@
         
     </head>
     <body>
+       
         <!-- JUMBOTRON -->
         <div id="jumbotron-landing" class="jumbotron">
-            <div class="container">
-               
+            <div class="container matrix">
+                       <!-- CANVAS MATRIX -->
+                
+                    <div class="row">
+                        <!-- canvas matrix -->
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <canvas id=q />
+                        </div>
+                    </div>
+                
+                <!-- FIN CANVAS MATRIX -->
                <!-- FILA  1 -->
                 <div class="row">
                    
@@ -172,6 +182,7 @@
                     <h3><strong>Visualización</strong><em><br><i class="fa fa-quote-left" aria-hidden="true"></i> Coge la información que desees comprender o retener y colócala en una imagen o fotografía con la que esté relacionada. Será más sencillo recordar la imagen, y seguidamente la información que al revés o sin fotografía.</em> <i class="fa fa-quote-right" aria-hidden="true"></i>
                     </h3>
                 </div>
+                
                 <div class="hidden-xs col-sm-6">
                     <img src="img/memorizacion.png" alt="" class="img-circle img">
                     <h3><strong>La memorización</strong><em><br><i class="fa fa-quote-left" aria-hidden="true"></i> Repetir y repetir la información a tu cerebro hasta que consigas recordarlo, este método funciona mejor con información arbitraria y basada en hechos reales, ya que consigues imaginarte una situación y recordarla al repetirlo o verlo tantas veces.</em> <i class="fa fa-quote-right" aria-hidden="true"></i>
@@ -240,5 +251,9 @@
         
         <!-- Controlar que no este vacio el input email -->
         <script src="bootstrap/js/btnemail.js"></script>
+        
+        <!-- matrix -->
+        <script src="bootstrap/js/matrix.js"></script>
+   
     </body>
 </html>
